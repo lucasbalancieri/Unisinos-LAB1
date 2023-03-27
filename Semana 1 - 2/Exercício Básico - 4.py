@@ -1,0 +1,10 @@
+print("Bem vindo!\nDigite seu endereço:")
+cidade = input("Cidade: ")
+estado = input("Estado: ")
+rua = input("Rua: ")
+numero = input("Número: ")
+bairro = input("Bairro: ")
+cep = input("CEP: ")
+
+print('\n\nSeu endereço é: ')
+print('Cidade: {}-{}\nRua: {} nº {}\nBairro: {}\nCEP: {}'.format(cidade, estado, rua, numero, bairro, cep))
