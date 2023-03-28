@@ -4,7 +4,7 @@
 i = 0
 soma = 0
 
-while i < 5:
+while i < 10:
 	numero = int(input("{}º número: ".format(i+1)))
 	soma = soma + numero
 	i += 1

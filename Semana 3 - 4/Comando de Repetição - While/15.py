@@ -1,13 +1,27 @@
 # Crie um programa que imprime os números primos entre 0 e 200,
 # imprimindo ao final a soma destes números.
 
-i = 0
-soma = 0
+numero = 2
+soma_primo = 0
 
-while i < 200:
-	if i%2 == 0: # aplicar a formula do numero primo
-		print(i)
-		soma = soma + i
-		i+=2
-print(soma)
+while numero < 200:
+	divisor = 2
+	primo = True
+
+	while divisor < numero:
+		if numero % divisor == 0:
+			primo = False
+			break
+		divisor += 1
+
+	if primo:
+		print(numero)
+		soma_primo += numero
+
+	numero += 1
+
+print(soma_primo)
+
+
+
 

@@ -3,7 +3,7 @@
 i = 0
 nome_pessoas = ""
 
-while i < 5:
+while i < 13:
 	nome = input("Digite o nome da {}ª pessoa: ".format(i+1))
 	nome_pessoas = nome_pessoas + nome + "\n"
 	i += 1
