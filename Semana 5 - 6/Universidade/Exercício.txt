@@ -17,10 +17,10 @@ e) Crie uma classe chamada PrincipalAluno. Nela, crie o método main. Neste mét
 
 - Crie 3 alunos, conforme a descrição abaixo:
 
-Nome					Matrícula	Nota do Grau A	Nota do Grau B
-Brandamente Brasil		1585258			5				9
-Radigunda Cercená		2254879			8				2
-Vitimado José Araújo	0085994			7				1
+Nome					          Matrícula	  Nota do Grau A	Nota do Grau B
+Brandamente Brasil		  1585258			      5				        9
+Radigunda Cercená		    2254879			      8				        2
+Vitimado José Araújo	  0085994			      7				        1
 
 
 - Imprima as informações de cada um dos 3 alunos
